@@ -1,0 +1,75 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif; /* Simple and clean font */
+  margin: 0;
+  padding: 0;
+  background-color: #eef2f3; /* Light gray background */
+  color: #333; /* Dark gray text */
+}
+
+header {
+  background-color: #ffffff; /* White background for header */
+  padding: 20px; /* Padding for header */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center header text */
+}
+
+nav {
+  background-color: #ffffff; /* White background for navigation */
+  border-bottom: 1px solid #ddd; /* Light gray border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow for navigation */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullets from the list */
+  padding: 10px 0; /* Padding for nav items */
+  display: flex; /* Flexbox for horizontal layout */
+  justify-content: center; /* Center navigation items */
+  margin: 0; /* Remove margin */
+}
+
+nav li {
+  margin: 0 20px; /* Space between navigation items */
+}
+
+nav a {
+  color: #555; /* Dark gray text color */
+  text-decoration: none; /* Remove underline */
+  padding: 8px 12px; /* Padding around links */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+  border-radius: 4px; /* Rounded corners */
+}
+
+nav a:hover {
+  background-color: #f0f0f0; /* Light gray on hover */
+  color: #000; /* Darker text on hover */
+}
+
+nav .active {
+  font-weight: bold; /* Bold text for active link */
+  color: #4A90E2; /* Blue color for active link */
+}
+
+main {
+  padding: 20px; /* Padding for main content */
+  max-width: 1200px; /* Max width for main content */
+  margin: 20px auto; /* Center the main content */
+  background-color: #ffffff; /* White background for main content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for main content */
+}
+
+h1, h2 {
+  margin: 0; /* Remove margin for headings */
+  font-weight: normal; /* Normal weight for headings */
+}
+
+h1 {
+  font-size: 24px; /* Larger font size for main heading */
+}
+
+h2 {
+  margin: 20px 0; /* Space below subheadings */
+  font-size: 20px; /* Slightly smaller for subheadings */
+}
