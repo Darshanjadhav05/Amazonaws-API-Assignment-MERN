@@ -36,7 +36,7 @@ A web application built using the MERN stack (MongoDB, Express, React, Node.js) 
 
 4. **Set up environment variables: Create a .env file in the server directory and add the following:**
      - PORT=5000
-     - MONGO_URI = <your-mongodb-uri>
+     - MONGO_URI=<your-mongodb-uri>
      - THIRD_PARTY_API_URL=https://s3.amazonaws.com/roxiler.com/product_transaction.json
 
 5.**Run the application: Start the MongoDB service, then run:**
